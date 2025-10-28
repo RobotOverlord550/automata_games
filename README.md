@@ -19,6 +19,6 @@
 | -------- | ---------------------------------------------------- | ----------------------------- | --- |
 | (space)  | Spacing for code to distinguish arguments            |                               |     |
 | `><`     | Elements are swapped                                 |                               |     |
-| \|       |                                                      | Separates results when needed |     |
+| `\|`     |                                                      | Separates results when needed |     |
 | `>`      | What both elements turn into                         |                               |     |
 | `>>`     | What specific operand from left-hand side turns into |                               |     |
