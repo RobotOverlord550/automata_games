@@ -1,12 +1,11 @@
 import pygame
 import updates
-import screen
 
-SCREEN_SIZE=720
+SCREEN_SIZE=500
 CLOCK_SPEED=60
 
 pygame.init()
-screen.init(SCREEN_SIZE)
+screen = pygame.display.set_mode((SCREEN_SIZE, SCREEN_SIZE))
 clock=pygame.time.Clock()
 running=True
 
