@@ -4,23 +4,24 @@ class AbsoluteVector2I():
             raise ValueError(f"Expected a non-negative integer but got {x}")
         if y<0:
             raise ValueError(f"Expected a non-negative integer but got {y}")        
-        self.vector:tuple=(x,y)
+        self.x:int=x
+        self.y:int=y
         
     def get_x(self) -> int:
-        return self.vector[0]
+        return self.x
     
     def set_x(self,x:int):
         if x<0:
             raise ValueError(f"Expected a non=negative integer but got {x}")
-        self.vector[0]=x
+        self.x=x
     
     def get_y(self) -> int:
-        return self.vector[1]
+        return self.y
     
     def set_y(self,y:int):
         if y<0:
             raise ValueError(f"Expected a non=negative integer but got {y}")
-        self.vector[1]=y
+        self.y=y
 
-    x=property(get_x,set_x)
-    y=property(get_y,set_y)
+    x_pos=property(get_x,set_x)
+    y_pos=property(get_y,set_y)
