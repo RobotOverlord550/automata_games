@@ -1,5 +1,4 @@
 import pygame
-import updates
 import grid
 from vectors import AbsoluteVector2I
 
