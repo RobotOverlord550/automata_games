@@ -1,6 +1,7 @@
 # imports
 import pygame
 import grid
+import elements
 from input import GameMouse
 from vectors import AbsoluteVector2I
 

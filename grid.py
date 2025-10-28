@@ -3,7 +3,8 @@ from vectors import AbsoluteVector2I
 
 class ColorRef():
     empty=(0,0,0)
-    lava=(255,0,0)
+    water=(86,86,235)
+    lava=(255,155,46)
 
 class Grid():
     def get_grid(self) -> list:
