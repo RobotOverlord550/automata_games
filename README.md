@@ -1,8 +1,10 @@
 # Current Version: Pre-Alpha
 # Description
----
 Little game I'm working on in python using [Pygame Community Edition](https://github.com/pygame-community/pygame-ce).  It is called Random Game because I didn't really know what I wanted to make when I initiated the repository.  I am planning on posting the first Alpha release on itch.io.  (If you really want to play it now the source code is here for your usage)
 ## Data Reference
+
+### Description
+Use this as a reference guide for modifying the file to your hearts content without needing to read my poorly commented source code.  I may add more extensive modding support in the future.
 ### Character Meaning
 | Character | Meaning                   |
 | --------- | ------------------------- |
