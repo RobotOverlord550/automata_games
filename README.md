@@ -15,10 +15,10 @@
 | `-`      | When two `g` are one tile apart           | Unspecified          | Does Not Matter | `["g", "g"]`   |
 | `_`      | When `e` is above `g`                     | Gravity, Unspecified | Matters         | 1: `g`, 2: `e` |
 ## RHS Operators
-| Operator | Meaning                                              |                               |
-| -------- | ---------------------------------------------------- | ----------------------------- |
-| (space)  | Spacing for code to distinguish arguments            |                               |
-| `><`     | Elements are swapped                                 |                               |
-| `|`      | Separates results when needed                        |                               |
-| `>`      | What both elements turn into                         |                               |
-| `>>`     | What specific operand from left-hand side turns into |                               |
+| Operator | Meaning                                              |                               |     |
+| -------- | ---------------------------------------------------- | ----------------------------- | --- |
+| (space)  | Spacing for code to distinguish arguments            |                               |     |
+| `><`     | Elements are swapped                                 |                               |     |
+| \|       |                                                      | Separates results when needed |     |
+| `>`      | What both elements turn into                         |                               |     |
+| `>>`     | What specific operand from left-hand side turns into |                               |     |
