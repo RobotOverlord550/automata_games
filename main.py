@@ -17,7 +17,7 @@ running=True
 game_grid=grid.Grid(screen_size=SCREEN_SIZE,
                     size=GRID_SIZE,
                     default_cell_type=grid.GridCellType(name="empty",
-                                                        color=ColorRef.blue))
+                                                        color=ColorRef.empty))
 
 def draw_grid()->pygame.Surface:
     pixel_array=pygame.PixelArray(grid_surface)

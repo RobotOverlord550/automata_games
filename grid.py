@@ -23,7 +23,7 @@ class GridCell():
         self.type=type
 
 class Grid():
-    def __init__(self,size:int,screen_size:int,default_cell_type:GridCellType):
+    def __init__(self,size:int,default_cell_type:GridCellType):
         self._game_grid=[]
         for x in range(size):
             row=[]
@@ -31,7 +31,6 @@ class Grid():
                cell=GridCell(default_cell_type)
                row.append(cell)
             self._game_grid.append(row)
-        self.cell_size=screen_size/size
     
     def get_cell(self,coordinates:AbsoluteVector2I) -> GridCell:
         return self._game_grid[coordinates.x][coordinates.y]
@@ -41,12 +40,5 @@ class Grid():
     
     def get_cell_color(self,coordinates:AbsoluteVector2I) -> tuple:
         return self.get_cell_type(coordinates=coordinates).color
-    
-    def get_cell_rect(self,coordinates:AbsoluteVector2I) -> pygame.Rect:
-        #print("x -> "+str(coordinates.x*self.cell_size)+" |y -> "+str(coordinates.y*self.cell_size)+" |size -> "+str(self.cell_size))
-        return pygame.Rect(x=coordinates.x*self.cell_size,
-                           y=coordinates.y*self.cell_size,
-                           height=self.cell_size,
-                           width=self.cell_size)
         
         
