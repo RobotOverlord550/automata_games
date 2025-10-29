@@ -19,13 +19,13 @@ running=True
 
 
 # grid setup
-game_grid=grid.Grid(size=GRID_SIZE,default_cell_color=grid.ColorRef.empty)
+game_grid=grid.Grid(size=GRID_SIZE,default_cell_color=elements.ColorRef.empty)
 def draw_grid()->pygame.Surface:
     pixel_array=pygame.PixelArray(grid_surface)
     for x in range(GRID_SIZE):
         for y in range(GRID_SIZE):
             pixel_array[x][y]=game_grid.grid_list[x][y]
-    pixel_array[50][50]=grid.ColorRef.lava
+    pixel_array[50][50]=elements.ColorRef.lava
     pixel_array.close()
     return grid_surface
 
@@ -49,7 +49,7 @@ while running:
         pixel_input_pos.x_pos=pixel_input_pos.x_pos+1
     
     # input
-    game_grid.update_grid(coordinates=pixel_input_pos,color=grid.ColorRef.lava)
+    game_grid.update_grid(coordinates=pixel_input_pos,color=elements.ColorRef.lava)
             
     # grid
     grid_surface=draw_grid()
