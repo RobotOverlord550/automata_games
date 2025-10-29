@@ -1,12 +1,18 @@
+import grid
 import json
-
-class ColorRef():
-    empty=(0,0,0)
-    water=(86,86,235)
-    lava=(255,155,46)
 
 rules_data:dict
 with open('data.json','r') as file:
     rules_data=json.load(file)
-rules:dict=rules_data.get('rules')
-print(rules)
+rules:list=rules_data.get('rules')
+
+colors:dict=rules_data.get('color_ref')
+def get_cell_color(element:str)->tuple:
+    try:
+        return (colors[element][0],colors[element][1],colors[element][2])
+    except:
+        raise ValueError(f"Excpected an existing element but got {element}")
+    
+def execute_rules(grid_list:grid.Grid):
+    for rule in rules:
+        pass

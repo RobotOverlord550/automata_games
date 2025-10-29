@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"f1b51c95eeb6d8ad","type":"text","text":"fire + water = fire > smoke , water > steam","x":-125,"y":-30,"width":165,"height":75},
+		{"id":"b75822dc84ff771e","type":"text","text":"Fire","x":-269,"y":20,"width":69,"height":50},
+		{"id":"b4d9155e695ff668","type":"text","text":"Water","x":-279,"y":-55,"width":79,"height":50},
+		{"id":"8f60e94bd9a078d6","x":120,"y":20,"width":80,"height":50,"type":"text","text":"Smoke"},
+		{"id":"b99f32633fcc17ed","type":"text","text":"steam","x":120,"y":-55,"width":80,"height":50}
+	],
+	"edges":[
+		{"id":"3114e206b33522e1","fromNode":"b4d9155e695ff668","fromSide":"right","toNode":"f1b51c95eeb6d8ad","toSide":"left"},
+		{"id":"256bd82266768d37","fromNode":"b75822dc84ff771e","fromSide":"right","toNode":"f1b51c95eeb6d8ad","toSide":"left"},
+		{"id":"04ee51c63f7eab8c","fromNode":"f1b51c95eeb6d8ad","fromSide":"right","toNode":"8f60e94bd9a078d6","toSide":"left"},
+		{"id":"db9f6b8d8abc78fc","fromNode":"f1b51c95eeb6d8ad","fromSide":"right","toNode":"b99f32633fcc17ed","toSide":"left"}
+	]
+}
