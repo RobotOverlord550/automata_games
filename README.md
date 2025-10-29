@@ -5,7 +5,7 @@ Little game I'm working on in python using [Pygame Community Edition](https://gi
 ## Data Reference
 
 ### Description
-Use this as a reference guide for modifying the file to your hearts content without needing to read my poorly commented source code.  I may add more extensive modding support in the future.
+Use this as a reference guide for modifying the data json file to your hearts content without needing to read my poorly commented source code.  I may add more extensive modding support in the future.
 ### Character Meaning
 | Character | Meaning                   |
 | --------- | ------------------------- |
