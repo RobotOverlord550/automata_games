@@ -1,4 +1,3 @@
-# ***CURRENTLY NOT FUNCTIONAL***
 # Current Version: Pre-Alpha
 
 # Description
