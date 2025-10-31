@@ -1,4 +1,4 @@
-# AutomataGames
+# Current Version: PreAlpha-1.0.0
 
 A Cellular Automata mingigame collection for python
 
