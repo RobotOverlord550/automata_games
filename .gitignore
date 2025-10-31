@@ -1,4 +1,7 @@
-__pycache__/
 *.pyc
-.obsidian/
-Notes/
+*.obsidian
+*.pytest_cache
+*.vscode
+*__pycache__/
+*.continue/
+personal_notes/
